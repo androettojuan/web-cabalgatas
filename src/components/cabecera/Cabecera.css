@@ -1,0 +1,34 @@
+.cabecera {
+  background-color: #a89168;  
+}
+
+.cabecera h1 {  
+  margin: 0;
+  text-align: left;
+  font-size: 60px;
+  color: #520d05;
+  font-family: 'Satisfy', cursive;
+}
+
+.cabecera .left {
+  width: 110px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cabecera .left img{
+  width: 100%;
+}
+
+.cabecera .center {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 110px);
+}
+
+.cabecera .right {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 110px);
+}

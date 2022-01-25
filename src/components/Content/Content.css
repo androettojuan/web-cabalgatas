@@ -1,0 +1,30 @@
+.content {  
+  background-color: white;  
+}
+
+.content h2 {
+  text-align: center;
+  color: #0a0120;
+  font-size: 42px;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.content p {
+  font-size: 24px;
+  color: #000000;
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.content .video video {
+  margin-left: 50px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
