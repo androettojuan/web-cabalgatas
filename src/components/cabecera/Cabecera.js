@@ -13,7 +13,8 @@ const Cabecera = (props) => {
       <div className="center">
         <h1>Cabalgatas y dias de campo</h1>
       </div>
-      <div className="right">        
+      <div className="right">
+        <img src="img/Redes sociales.png"/>        
       </div>
       <Menu />
     </div>
