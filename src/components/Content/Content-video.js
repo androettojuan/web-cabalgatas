@@ -1,6 +1,5 @@
-import react from "react";
+import React from "react";
 import "./Content-video.css";
-import ReactPlayer from "react-player";
 
 const Contentvideo = ({ children, video }) => {
   return (

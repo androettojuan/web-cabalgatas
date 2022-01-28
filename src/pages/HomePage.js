@@ -4,6 +4,7 @@ import Cabecera from "../components/cabecera/Cabecera";
 import Content from "../components/Content/Content";
 import Contentvideo from "../components/Content/Content-video";
 import Fotos from "../components/Content/Fotos";
+import Piepagina from "../components/pie-pagina/Piepagina";
 
 const HomePage = () => {
   return (
@@ -20,9 +21,12 @@ const HomePage = () => {
         sientas seguro y puedas disfrutar al máximo y que sea ésta, una
         #ExperienciaInolvidable
       </Contentvideo>
-      <Button>CONOCE MAS</Button>
+      <a href="/Nosotros">
+        <Button>CONOCE MAS</Button>
+      </a>
       <Content id="experiencias" title="Experiencias"></Content>
-      <Fotos></Fotos>      
+      <Fotos></Fotos>
+      <Piepagina></Piepagina>
     </div>
   );
 };

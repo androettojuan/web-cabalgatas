@@ -1,0 +1,42 @@
+.pie-pagina {
+  background-color: rgb(49, 49, 49);
+  width: 100%;
+}
+.pie-pagina .info {
+  width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pie-pagina .info ul li {
+  color: rgb(255, 255, 255);
+  list-style: none;
+  font-size: 14px;
+}
+
+.pie-pagina .redes {
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pie-pagina .redes img {
+  width: 100px;
+}
+
+.pie-pagina .derechos {
+  background-color: rgb(41, 37, 37);
+  padding: 0.5px;
+}
+
+.pie-pagina .derechos p {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {  
+  .pie-pagina .redes img {
+    width: 70px;
+  }
+}
